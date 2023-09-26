@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  my-hello-world-app:
+    image: my-hello-world-app
+    ports:
+      - "8080:8080"
